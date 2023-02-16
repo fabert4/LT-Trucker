@@ -2,6 +2,10 @@
     import {Button, ButtonGroup, Card, Input, InputAddon, Label, Listgroup} from "flowbite-svelte";
     import {goto} from "$app/navigation";
 
+    import {Backspace} from "@steeze-ui/heroicons";
+    import {Icon} from "@steeze-ui/svelte-icon";
+    import { back, updateParam } from '$lib/utils/Routing';
+
     let list = [
         {
             name: "Dock:", email: "", value: "A1"
@@ -40,28 +44,34 @@
             </div>
             <Label for="website-admin" class="block mb-2 pt-2">Company</Label>
             <ButtonGroup class="w-full">
-                <Input id="disabled-input" disabled value="Company" />
+                <h1>Oldenburger</h1>
             </ButtonGroup>
             <Label for="website-admin" class="block mb-2 pt-2">Name</Label>
             <ButtonGroup class="w-full">
-                <Input id="disabled-input" disabled value="John Doe" />
+                <h1>John Doe</h1>
             </ButtonGroup>
             <Label for="website-admin" class="block mb-2 pt-2">License Plate</Label>
             <ButtonGroup class="w-full">
-                <Input id="disabled-input" disabled value="AB-12-34" />
+                <h1>AB-12-34</h1>
             </ButtonGroup>
             <Label for="website-admin" class="block mb-2 pt-2">Mobile Number</Label>
             <ButtonGroup class="w-full">
-                <Input id="disabled-input" disabled value="+31 6 12345678" />
+                <h1>+31 6 123456789</h1>
             </ButtonGroup>
             <Label for="website-admin" class="block mb-2 pt-2">E-mail</Label>
             <ButtonGroup class="w-full">
-                <Input id="disabled-input" disabled value="johndoe@gmail.com" />
+                <h1>johndoe@gmail.com</h1>
             </ButtonGroup>
             <Label for="website-admin" class="block mb-2 pt-2">E-mail (company)</Label>
             <ButtonGroup class="w-full">
-                <Input id="disabled-input" disabled value="ozhazi@ozhazi.com" />
+                <h1>ozhazi@ozhazi.com</h1>
             </ButtonGroup>
+            <Button class="p-3 mt-3 ml-1" on:click={() => back()} >
+                Back <svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </Button>
+<!--            <button on:click={() => back()} class="p-3 mt-3 ml-8">-->
+<!--                <Icon src={Backspace} theme="solid" class="w-10 h-10 text-white" />-->
+<!--            </button>-->
             <Button class="p-3 mt-3 ml-8" on:click={() => goto('/')}>
                 Send To Mobile <svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </Button>

@@ -81,9 +81,6 @@
 <!--</Navbar>-->
 
 <Navbar color="none" class="bg-primary-600 justify-items-start" fluid={false}>
-    <button on:click={() => back()} class="">
-        <Icon src={Backspace} theme="solid" class="w-10 h-10 text-white" />
-    </button>
     {#if !title && !description}
 <!--        <Button>-->
 <!--            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" width="20px" height="20px">-->

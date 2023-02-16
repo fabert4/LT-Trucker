@@ -27,8 +27,8 @@
         <TableBodyRow trClass="clickableTable" on:click={() => goto('/order/')}>
             <TableBodyCell>12345</TableBodyCell>
             <TableBodyCell>A1</TableBodyCell>
-            <TableBodyCell>Company</TableBodyCell>
-            <TableBodyCell>Company</TableBodyCell>
+            <TableBodyCell>Bosdaalen</TableBodyCell>
+            <TableBodyCell>Soffriti</TableBodyCell>
             <TableBodyCell>12 CC</TableBodyCell>
             <TableBodyCell>Budapest</TableBodyCell>
             <TableBodyCell>
@@ -40,8 +40,8 @@
         <TableBodyRow trClass="clickableTable" on:click={() => goto('/order/')}>
             <TableBodyCell>12346</TableBodyCell>
             <TableBodyCell>A1</TableBodyCell>
-            <TableBodyCell>Company</TableBodyCell>
-            <TableBodyCell>Company</TableBodyCell>
+            <TableBodyCell>Soffriti</TableBodyCell>
+            <TableBodyCell>Groenenwoud Montage</TableBodyCell>
             <TableBodyCell>12 CC</TableBodyCell>
             <TableBodyCell>Budapest</TableBodyCell>
             <TableBodyCell>
@@ -53,8 +53,8 @@
         <TableBodyRow trClass="clickableTable" on:click={() => goto('/order/')}>
             <TableBodyCell>12347</TableBodyCell>
             <TableBodyCell>A1</TableBodyCell>
-            <TableBodyCell>Company</TableBodyCell>
-            <TableBodyCell>Company</TableBodyCell>
+            <TableBodyCell>Bosdaalen</TableBodyCell>
+            <TableBodyCell>Groenenwoud Montage</TableBodyCell>
             <TableBodyCell>12 CC</TableBodyCell>
             <TableBodyCell>Budapest</TableBodyCell>
             <TableBodyCell>
