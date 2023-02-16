@@ -38,7 +38,7 @@
             </TableBodyCell>
         </TableBodyRow>
         <TableBodyRow trClass="clickableTable" on:click={() => goto('/order/')}>
-            <TableBodyCell>12345</TableBodyCell>
+            <TableBodyCell>12346</TableBodyCell>
             <TableBodyCell>A1</TableBodyCell>
             <TableBodyCell>Company</TableBodyCell>
             <TableBodyCell>Company</TableBodyCell>
@@ -51,7 +51,7 @@
             </TableBodyCell>
         </TableBodyRow>
         <TableBodyRow trClass="clickableTable" on:click={() => goto('/order/')}>
-            <TableBodyCell>12345</TableBodyCell>
+            <TableBodyCell>12347</TableBodyCell>
             <TableBodyCell>A1</TableBodyCell>
             <TableBodyCell>Company</TableBodyCell>
             <TableBodyCell>Company</TableBodyCell>
