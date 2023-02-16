@@ -1,0 +1,18 @@
+{
+	"/(app)": [
+		"src/routes/(app)/+layout.ts",
+		"src/routes/(app)/+layout.ts"
+	],
+	"/": [],
+	"/login": [
+		"src/routes/login/+page.ts"
+	],
+	"/logout": [],
+	"/(app)/order": [
+		"src/routes/(app)/+layout.ts"
+	],
+	"/(app)/order/confirm": [
+		"src/routes/(app)/order/confirm/+page.ts",
+		"src/routes/(app)/+layout.ts"
+	]
+}
